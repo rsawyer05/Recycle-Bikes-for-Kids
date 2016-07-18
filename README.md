@@ -9,5 +9,3 @@ Get Involved
 This website was created by Russell Sawyer and is a culmination of concepts learned while taking coding courses such as HTML, CSS and JavaScript through Treehouse.com.
 
 You can also check out my Treehouse profile [here](https://teamtreehouse.com/russellsawyer).
-
-Just want to test out the push command in the terminal
