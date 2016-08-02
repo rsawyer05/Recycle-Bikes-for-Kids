@@ -167,6 +167,87 @@ h2 {
   background-color: lightblue;
 }
 
+/*************************************
+Get_involved Page
+*************************************/
+
+.get-title h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.donate {
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+.volunteer {
+  max-width: 100%;
+  width: 250px;
+  box-shadow: 10px 15px 10px rgba(0,0,0, .8);
+  border-radius: 10px;
+}
+
+.get-col3 {
+  padding-top: 20px;
+}
+
+/*************************************
+FAQ Page
+*************************************/
+
+.links {
+  line-height: 1.2em;
+  padding: 10px 0;
+  padding: 0 5%;
+}
+
+.links a {
+  padding: 10px 0;
+  font-size: .9em;
+}
+
+.links a:hover {
+  color: red;
+}
+
+.q-wrapper {
+  padding: 20px 5%;
+}
+
+/*************************************
+About Page
+*************************************/
+
+.ron h2,
+.joe h2 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.ron,
+.joe {
+  text-align: center;
+}
+
+.pics {
+  max-width: 100%;
+  width: 300px;
+  box-shadow: 10px 15px 10px rgba(0,0,0, .8);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.a-col1 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.a-col2 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 /* Media Queries --------------------- */
 
 @media (min-width: 768px) {
@@ -178,7 +259,7 @@ h2 {
   .main-header,
   .container {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 20px;
   }
 
   .main-header,
@@ -214,7 +295,7 @@ h2 {
   }
 
   .container {
-    width: 80%;
+    width: 95%;
     max-width: 1150px;
   }
 
@@ -234,5 +315,18 @@ h2 {
 
   .logo-mission {
     flex-grow: 1.4;
+  }
+
+  /*************************************
+  FAQ Page
+  *************************************/
+
+  .faq-mh {
+    position: absolute;
+  }
+
+  .get-col3 {
+    order: -1;
+    padding-top: 0;
   }
 }
