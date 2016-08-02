@@ -286,7 +286,30 @@ About Page
     order: -1;
   }
 
+  /*************************************
+  About Page
+  *************************************/
+
+  .a-wrapper {
+    max-width: 1300px;
+  }
+
+  .pic-h2 {
+    float: left;
+    width: 50%;
+    padding-bottom: 20px;
+  }
+
+  .ron-p,
+  .joe-p {
+    float: right;
+    width: 50%;
+    font-size: .9em;
+  }
 }
+
+
+
 
 @media (min-width: 1100px) {
 
@@ -329,4 +352,29 @@ About Page
     order: -1;
     padding-top: 0;
   }
+
+  /*************************************
+  About Page
+  *************************************/
+
+  .ron-p,
+  .joe-p {
+    padding-top: 40px;
+  }
+
+
+}
+
+
+/*************************
+clearfix
+**************************/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
