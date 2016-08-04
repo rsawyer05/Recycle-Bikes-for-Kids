@@ -271,7 +271,15 @@ Contact Page
   margin: 0;
 }
 
-.phone a, {
+.email a {
+  padding: 10px 20px 10px 0;
+}
+
+.email {
+  padding-left: 10px;
+}
+
+.phone a {
   padding: 10px 30px;
 }
 
