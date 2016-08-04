@@ -268,6 +268,7 @@ Contact Page
 .map {
   padding: 30px 5%;
   text-align: center;
+  margin: 0;
 }
 
 .phone a, {
@@ -368,7 +369,7 @@ Contact Page
 
   .c-col {
     width: 40%;
-    margin: 0 5%;
+    margin: 0 2.5%;
     font-size: .9em;
   }
 
@@ -380,6 +381,7 @@ Contact Page
 
   .map {
     float: right;
+    width: 50%;
   }
 
 }
