@@ -253,7 +253,6 @@ Contact Page
 *************************************/
 
 .c-col {
-  width: 95%%;
   padding: 0 5%;
   text-align: center;
 }
@@ -267,7 +266,8 @@ Contact Page
 }
 
 .map {
-  padding: 30px 0;
+  padding: 30px 5%;
+  text-align: center;
 }
 
 .phone a, {
@@ -293,6 +293,7 @@ Contact Page
 }
 
 .c-wrapper {
+  text-align: center;
   max-width: 1200px;
   padding-bottom: 10px;
 }
